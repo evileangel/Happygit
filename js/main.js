@@ -11,9 +11,6 @@ $(document).ready(function() {
 })
 
 function init(){
-    $('.content').hide();
-    Swal.fire({background: '#fff url("img/bộ 3 1.jpg")',
-        imageAlt: 'img/bộ 3 1,jpg'})
     $('#title').text(CONFIG.title)
     $('#desc').text(CONFIG.desc)
     $('#yes').text(CONFIG.btnYes)
@@ -29,7 +26,7 @@ function firstQuestion(){
         imageWidth: 300,
         imageHeight: 300,
         background: '#fff url("img/iput-bg.jpg")',
-        imageAlt: 'img/bộ 3 1.jpg',
+        imageAlt: 'Custum image',
         confirmButtonText: CONFIG.btnIntro
       }).then(function(){
         $('.content').show(200);
