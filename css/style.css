@@ -26,7 +26,7 @@
   /* height: 100vh; */
   z-index: 0;
   background-repeat: no-repeat;
-  background-image: url(https://drive.google.com/file/d/1gWy60aUzq157aUSO30EVoK8CBTWpFoUs/view?usp=sharing);
+  background-image: url('https://drive.google.com/file/d/1gWy60aUzq157aUSO30EVoK8CBTWpFoUs/view?usp=sharing');
   background-size: cover;
   background-position: 50%;
   -webkit-filter: blur(4px);
